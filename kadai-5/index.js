@@ -5,12 +5,12 @@ const profile = {
     major: 'literature',
     hobby: 'cooking',
     job: 'student',
-    families: 'nothing',
+    families: '2 stuffed animals',
  };
 
 const keys = Object.keys(profile);
 
- for (let index = 0; index < keys.length; index++) {
+ for (let i = 0; i < keys.length; i = i + 1) {
      const key = keys[i];
      const value = profile[key];
      const text = "私の"　+ key + "は、"　+ value + "です。"
