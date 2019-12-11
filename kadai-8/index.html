@@ -1,0 +1,20 @@
+<html>
+<body>
+    <button id="button">輪廻転生チャレンジ</button>
+    <script>
+        const button = document.getElementById('button')
+        button.addEventListener('click',() =>　{
+        const num = Math.random()
+        if(num < 0.5) {
+            alert('来世は普通の人間です')
+        }　else if(num < 0.8){
+            alert('来世はお金持ちの人間です')
+        }　else if(num < 0.95){
+            alert('輪廻から解脱します')
+        }　else {
+            alert('来世はマンボウです')
+        }
+        })
+    </script>
+</body>
+</html>
