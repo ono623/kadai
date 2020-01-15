@@ -1,0 +1,24 @@
+
+
+
+<html>
+<head>
+<style>
+button {
+    font-size:50px;
+}
+</style>
+</head>
+<body>
+    <button id="button">輪廻転生チャレンジ</button>
+    <script>
+        const button = document.getElementById('button')
+        button.addEventListener('click',() =>　{
+       fetch('https://3000-a4a8efdd-82bf-4f53-95d3-4b0962270dff.ws-ap01.gitpod.io/kadai-11')//★★★★★★★★
+    .then(res => res.text())
+    .then(data => alert(data))
+        })
+    </script>
+</body>
+</html>
+
