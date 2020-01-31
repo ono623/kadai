@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
     res.write(result)
     res.end()
 })
-server.listen(3000)
+server.listen(4000)
 console.log("The server is listening...")
 
 // https://3000-a4a8efdd-82bf-4f53-95d3-4b0962270dff.ws-ap01.gitpod.io/kadai-11/
